@@ -16,8 +16,20 @@ header{
 header img{
 	width: 25px;
 }
+.button{
+	display: inline;
+	background-color: grey;
+	border-radius: 0.25em;
+	padding: .25em;
+	color: white;
+	position: relative;
+	bottom: 7px;
+}
 header h1{
 	display: inline;
+}
+h2{
+	text-align: center;
 }
 header nav li{
 	display: inline;
@@ -38,10 +50,6 @@ header a{
 	text-decoration: none;
 	color: white;
 }
-.top img{
-	width: 111.6%;
-	margin: 0 -6%;
-}
 .top p{
 	position: relative;
 	top: -8rem;
@@ -51,6 +59,11 @@ header a{
 	width: 100%;
 	text-shadow: 4px 4px 10px black;
 }
+.top img{
+	width: 111.5%;
+	margin: 0 -6%;
+}
+
 .info li{
 	display: inline-block;
 	width: 32%;
@@ -70,9 +83,7 @@ main{
 main img{
 	width: 100%;
 }
-h2{
-	text-align: center;
-}
+
 .learn{
 	width: 100%;
 	background-color: grey;
@@ -83,13 +94,4 @@ h2{
 .learn a{
 	text-decoration: none;
 	color: white;
-}
-.button{
-	display: inline;
-	background-color: grey;
-	border-radius: 0.25em;
-	padding: .25em;
-	color: white;
-	position: relative;
-	bottom: 7px;
 }
