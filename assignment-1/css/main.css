@@ -51,17 +51,17 @@ header a{
 	width: 100%;
 	text-shadow: 4px 4px 10px black;
 }
-.desc li{
+.info li{
 	display: inline-block;
 	width: 32%;
 }
-.desc{
+.info{
 	padding: 0;
 }
-.desc dt{
+.info dt{
 	font-weight: bold;
 }
-.desc dl, .desc dd{
+.info dl, .info dd{
 	margin: 0;
 }
 main{
