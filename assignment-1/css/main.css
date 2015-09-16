@@ -155,3 +155,19 @@ main li{
 h3 {
     font-size: 1.2em;
 }
+footer p{
+	margin:0;
+}
+footer ul{
+	padding: 0;
+}
+footer li{
+	display: inherit;
+}
+footer a{
+	color: darkorange;
+}
+footer ol{
+	display: inline;
+	padding: 0;
+}
