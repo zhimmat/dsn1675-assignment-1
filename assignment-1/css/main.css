@@ -18,7 +18,7 @@ header img{
 }
 .button{
 	display: inline;
-	background-color: grey;
+	background-color: darkorange;
 	border-radius: 0.25em;
 	padding: .25em;
 	color: white;
@@ -43,7 +43,7 @@ header nav ol{
 	overflow: hidden;
 }
 header nav{
-	background-color: black;
+	background-color: darkorange;
 	margin-top: 1em;
 }
 header a{
