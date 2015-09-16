@@ -143,3 +143,8 @@ main img{
     position: relative;
     width: 100%;
 }
+.weeks ol{
+  width: 55%;
+padding:0;
+margin:0;
+}
