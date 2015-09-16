@@ -148,3 +148,10 @@ main img{
 padding:0;
 margin:0;
 }
+main li{
+  display:inline;
+  text-align:left;
+}
+h3 {
+    font-size: 1.2em;
+}
