@@ -103,11 +103,43 @@ main img{
   text-align: center;
 }
 .dollars div{
-  background-color: black;
+  background-color: darkorange;
 	padding: 1em 1em;
 	margin: 0 2.5%;
 	width: 44%;
 	display: inline-block;
 	border-radius: 0.25em;
   color:white;
+}
+.play{
+  width: 111.6%;
+  padding: .5em;
+	text-align: center;
+  margin-bottom: -0.65em;
+	margin-left: -6%;
+	margin-top:2em;
+  color: white;
+  background-color: black;
+}
+.show{
+	background-color: darkorange;
+	display: inline;
+	padding: .4em;
+	border-radius: 0.5em;
+  color: white;
+	text-shadow: none;
+  position: relative;
+}
+.now img{
+  width: 120%;
+  margin: 0px -10%;
+}
+.now figcaption{
+  	top: -11rem;
+  	color: white;
+  	text-align: center;
+  	text-shadow: 1px 2px 1px black;
+    margin-bottom: -7em;
+    position: relative;
+    width: 100%;
 }
