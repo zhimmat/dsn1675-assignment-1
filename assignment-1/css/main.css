@@ -98,3 +98,16 @@ main img{
 .money{
   text-align: center;
 }
+.dollars{
+  width: 100%;
+  text-align: center;
+}
+.dollars div{
+  background-color: black;
+	padding: 1em 1em;
+	margin: 0 2.5%;
+	width: 44%;
+	display: inline-block;
+	border-radius: 0.25em;
+  color:white;
+}
