@@ -9,8 +9,11 @@ html{
 	font-family: 'Noto Sans', sans-serif;
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	line-height: 1.1;
+	font-size: 100%;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -27,19 +30,28 @@ header img{
 	width: 25px;
 }
 .button{
-	display: inline;
+	display: inline-block;
 	background-color: darkorange;
 	border-radius: 0.25em;
 	padding: .25em;
 	color: white;
-	position: relative;
+	position: absolute;
 	bottom: 7px;
+	top: .5em;
+	right:1em;
 }
 header h1{
-	display: inline;
+	font-size:1.1em;
+	display: inline-block;
+
 }
 h2{
 	text-align: center;
+}
+header nav a{
+	display: block;
+	padding: .5em;
+	text-align: left;
 }
 header nav li{
 	display: inline;
@@ -121,6 +133,7 @@ main img{
 	border-radius: 0.25em;
   color:white;
 }
+
 .play{
   width: 111.6%;
   padding: .5em;
