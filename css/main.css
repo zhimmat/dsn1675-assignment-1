@@ -22,30 +22,29 @@ body{
 	margin: 0;
 }
 header{
-	position: relative;
 	text-align: center;
 	padding-top: 1em;
 }
 header img{
-	width: 25px;
+width: 25px;
 }
 .button{
-	display: inline-block;
-	background-color: darkorange;
-	border-radius: 0.25em;
-	padding: .25em;
-	color: white;
-	position: absolute;
-	bottom: 7px;
-	top: .5em;
-	right:1em;
+		background-color: darkorange;
+			border-radius: 0.25em;
+			padding: .25em;
+			color: white;
+			position: relative;
+			top: .5em;
+			right:1em;
+			width: auto;
 }
-header h1{
-	font-size:1.1em;
-	display: inline-block;
-
-}
+	header h1{
+		font-size:1.5em;
+		display: inline-block;
+		height: 1em;
+	}
 h2{
+	font-size:1em;
 	text-align: center;
 }
 header nav a{
@@ -80,15 +79,17 @@ header a{
 	margin-bottom: -5em;
 	width: 100%;
 	text-shadow: 4px 4px 10px black;
+	max-width: 25rem;
+	margin: 0 auto;
 }
 .top img{
 	width: 111.6%;
 	margin: 0 -6%;
 }
-
-.info li{
-	display: inline-block;
-	width: 32%;
+.info div{
+	width:100%auto;
+	display:inline-block;
+	vertical-align: top;
 }
 .info{
 	padding: 0;
@@ -153,9 +154,15 @@ main img{
 	text-shadow: none;
   position: relative;
 }
-.now img{
-  width: 120%;
-  margin: 0px -10%;
+.now {
+	background-image: url(../images/Atlantisz.jpg);
+		margin: 0 -4%;
+		padding: 1em;
+		background-size: cover;
+		color: white;
+		text-align: center;
+		width: 108%;
+		text-shadow: 1px 2px 1px black;
 }
 .now figcaption{
   	top: -11rem;
@@ -193,4 +200,24 @@ footer a{
 footer ol{
 	display: inline;
 	padding: 0;
+}
+@media only screen and (min-width: 20em){
+header nav a{
+		display: inline;
+		width: 25%;
+		float: left;
+		padding: .5em;
+		text-align: center;
+}
+.button{
+	display: inline;
+	color: white;
+	position: absolute;
+	top: 1.35em;
+	right: 1em;
+	left: 79%;
+	width: auto;
+	padding: 0.25em .75em;
+	left: auto;
+}
 }
