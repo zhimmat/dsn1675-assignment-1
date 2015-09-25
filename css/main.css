@@ -38,7 +38,7 @@ width: 50px;
 		width: auto;
 }
 	header h1{
-		font-size:1.5em;
+		font-size:2em;
 		display: inline-block;
 		height: 1em;
 	}
@@ -238,9 +238,10 @@ header nav a{
 header h1{
 	height: 1em;
 	margin: 0em 2.2em;
+	font-size: 2em;
 }
 header img{
-	width: 35px;
+	width: 60px;
 	left:.75em;
 	top: 1.5em;
 }
@@ -265,4 +266,16 @@ h2{
 main{
 	padding: 0 5% 5% 5%;
 }
+}
+@media only screen and (min-width: 38em){
+html{
+  font-size: 110%;
+  line-height: 1.4;
+}
+}
+@media only screen and (min-width: 60em){
+  html{
+    font-size: 120%;
+    line-height: 1.5;
+  }
 }
