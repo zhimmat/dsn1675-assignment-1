@@ -82,9 +82,12 @@ header a{
 	max-width: 25rem;
 	margin: 0 auto;
 }
-.top img{
-	width: 111.6%;
-	margin: 0 -6%;
+.top{
+		background-image: url(../images/maerten.jpg);
+		margin: 0 -4%;
+background-size: cover;
+		padding: 1em;
+
 }
 .info div{
 	width:100%;
@@ -180,7 +183,7 @@ main img{
     width: 100%;
 }
 .weeks ol{
-  width: 55%;
+  width: 75%;
 padding:0;
 margin:0;
 }
@@ -211,12 +214,12 @@ footer ol{
 	padding: 0;
 }
 @media only screen and (min-width: 20em){
-header nav a{
-		display: inline;
-		width: 25%;
-		float: left;
-		padding: .5em;
-		text-align: center;
+.top{
+	margin: 0 -5%;
+	padding: 2em 4.5em;
+}
+.top p{
+	top: -8rem;
 }
 .button{
 	display: inline;
@@ -228,5 +231,42 @@ header nav a{
 	width: auto;
 	padding: 0.25em .75em;
 	left: auto;
+}
+header nav a{
+		display: inline;
+		width: 25%;
+		float: left;
+		padding: .5em;
+		text-align: center;
+}
+header h1{
+	height: 1em;
+	margin: 0em 2.2em;
+}
+header img{
+	width: 35px;
+	left:.75em;
+	top: 1.5em;
+}
+.weeks ol{
+	width:55%;
+}
+.dollars div{
+	margin: 0 2.3%;
+	width: 44%;
+}
+.info div{
+	text-align: center;
+	width: 34%;
+}
+h2{
+	font-size: 1.3em;
+}
+.now{
+	margin: 0 -6%;
+	width: 112%;
+}
+main{
+	padding: 0 5% 5% 5%;
 }
 }
