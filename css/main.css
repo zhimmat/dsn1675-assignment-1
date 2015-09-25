@@ -26,7 +26,7 @@ header{
 	padding-top: 1em;
 }
 header img{
-width: 25px;
+width: 50px;
 }
 .button{
 		background-color: darkorange;
@@ -54,9 +54,6 @@ header nav a{
 }
 header nav li{
 	display: inline;
-	width: 25%;
-	float: left;
-	padding: .5em;
 }
 header nav ol{
 	margin: 0;
@@ -86,6 +83,7 @@ header a{
 		margin: 0 -6%;
 		background-size: cover;
 		padding: 1em;
+		width: 111.6%;
 
 }
 .info div{
@@ -128,7 +126,7 @@ main img{
   text-align: center;
 }
 .money p{
-	margin: .5em auto;
+	margin: 1.5em auto;
 	max-width: 34rem;
 }
 .dollars{
@@ -137,7 +135,7 @@ main img{
 }
 .dollars div{
   background-color: darkorange;
-	padding: 1em 1em;
+	padding: 1em 2em;
 	margin: 0.25em 0;
 	width: 100%;
 	display: inline-block;
@@ -156,7 +154,7 @@ main img{
 .show{
 	background-color: darkorange;
 	display: inline;
-	padding: .4em;
+	padding: .3em;
 	border-radius: 0.5em;
   color: white;
 	text-shadow: none;
