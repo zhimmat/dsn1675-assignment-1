@@ -209,10 +209,14 @@ footer ol{
 	display: inline;
 	padding: 0;
 }
+.wrapper{
+  max-width: 42em;
+  margin: 0 auto;
+}
 @media only screen and (min-width: 25em){
 .top{
 	margin: 0 -6%;
-	padding: 2em 4.5em;
+	padding: 7em 4.5em;
 }
 .top p{
 	top: -8rem;
@@ -278,4 +282,13 @@ html{
     font-size: 120%;
     line-height: 1.5;
   }
+}
+@media print{
+	nav{
+  display: none;
+}
+main a::after {
+content: "  ("attr(href)")";
+color: grey;
+}
 }
