@@ -44,12 +44,12 @@ width: 25px;
 		height: 1em;
 	}
 h2{
-	font-size:1em;
+	font-size:1.2em;
 	text-align: center;
 }
 header nav a{
 	display: block;
-	padding: .5em;
+	padding: .5em 0em 0em 0em;
 	text-align: left;
 }
 header nav li{
@@ -72,11 +72,10 @@ header a{
 	color: white;
 }
 .top p{
-	position: relative;
 	top: -8rem;
 	color: white;
+	font-size: .9em;
 	text-align: center;
-	margin-bottom: -5em;
 	width: 100%;
 	text-shadow: 4px 4px 10px black;
 	max-width: 25rem;
@@ -84,8 +83,8 @@ header a{
 }
 .top{
 		background-image: url(../images/maerten.jpg);
-		margin: 0 -4%;
-background-size: cover;
+		margin: 0 -6%;
+		background-size: cover;
 		padding: 1em;
 
 }
@@ -215,7 +214,7 @@ footer ol{
 }
 @media only screen and (min-width: 20em){
 .top{
-	margin: 0 -5%;
+	margin: 0 -6%;
 	padding: 2em 4.5em;
 }
 .top p{
